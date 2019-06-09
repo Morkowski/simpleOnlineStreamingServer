@@ -1,5 +1,5 @@
 (function () {
-    const manifestUri = 'media/live.mpd';
+    const manifestUri = 'dash/live.mpd';
 
     function initApp() {
         shaka.polyfill.installAll();
